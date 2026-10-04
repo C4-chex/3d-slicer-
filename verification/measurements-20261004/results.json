@@ -1,0 +1,69 @@
+{
+  "checks": [
+    {
+      "name": "disabled_without_volume",
+      "passed": true
+    },
+    {
+      "name": "placement_uses_line_class",
+      "passed": true
+    },
+    {
+      "name": "bound_to_source",
+      "passed": true
+    },
+    {
+      "name": "unfinished_not_exportable",
+      "passed": true
+    },
+    {
+      "name": "five_mm_world_distance",
+      "passed": true
+    },
+    {
+      "name": "lps_conversion",
+      "passed": true
+    },
+    {
+      "name": "completed_export_enabled",
+      "passed": true
+    },
+    {
+      "name": "endpoint_edit_updates_label",
+      "passed": true
+    },
+    {
+      "name": "transformed_world_distance",
+      "passed": true
+    },
+    {
+      "name": "export_world_geometry",
+      "passed": true
+    },
+    {
+      "name": "export_has_no_identity_or_source_reference",
+      "passed": true
+    },
+    {
+      "name": "old_measurements_hidden_on_switch",
+      "passed": true
+    },
+    {
+      "name": "clear_other_preserves_original",
+      "passed": true
+    },
+    {
+      "name": "return_restores_measurement",
+      "passed": true
+    },
+    {
+      "name": "placement_ends",
+      "passed": true
+    },
+    {
+      "name": "clear_removes_nodes_and_observers",
+      "passed": true
+    }
+  ],
+  "status": "passed"
+}

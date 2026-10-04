@@ -1,0 +1,32 @@
+{
+  "schema": "CT3D.length.v1",
+  "created_at": "2026-10-04T22:42:44.249212",
+  "modality": "MR",
+  "coordinate_system": "world LPS",
+  "units": "mm",
+  "source_spacing_mm": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "transform_present": true,
+  "measurements": [
+    {
+      "index": 1,
+      "length_mm": 20.0,
+      "endpoints_world_lps_mm": [
+        [
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -12.0,
+          -16.0,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "note": "患者世界坐标中的直线距离；显示小数位不代表采集精度。记录不含患者身份或源路径，不能单独恢复完整场景。"
+}

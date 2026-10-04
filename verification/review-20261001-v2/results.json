@@ -1,0 +1,277 @@
+{
+  "started_at": "2026-10-04T22:43:30.836322",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "module_setup",
+      "passed": true
+    },
+    {
+      "name": "real_mr_index",
+      "passed": true,
+      "source_files": 143,
+      "series_count": 7
+    },
+    {
+      "name": "duplicate_positions_blocked",
+      "passed": true
+    },
+    {
+      "name": "real_mr_load",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "volume_rendering_ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "equal_four_pane_layout",
+      "passed": true,
+      "pane_sizes": [
+        [
+          563,
+          396
+        ],
+        [
+          562,
+          396
+        ],
+        [
+          563,
+          396
+        ],
+        [
+          562,
+          396
+        ]
+      ]
+    },
+    {
+      "name": "mr_geometry",
+      "passed": true,
+      "dimensions": [
+        256,
+        256,
+        20
+      ],
+      "spacing": [
+        0.8984375000000001,
+        0.8984375000000002,
+        6.000000184453406
+      ]
+    },
+    {
+      "name": "dicom_plane_origins_match_loaded_geometry",
+      "passed": true,
+      "maximum_error_mm": 5.840904692393922e-06,
+      "planes": 20
+    },
+    {
+      "name": "dicom_in_plane_orientation_and_scale",
+      "passed": true,
+      "maximum_error_mm": 5.270109174415702e-06
+    },
+    {
+      "name": "loaded_mr_pixel_values_match_single_file_read",
+      "passed": true,
+      "maximum_signal_difference": 0.0
+    },
+    {
+      "name": "nearest_slice_mode",
+      "passed": true,
+      "checkbox": false,
+      "slice_interpolate": 0,
+      "volume_interpolation": 1
+    },
+    {
+      "name": "acquisition_plane_aligned_and_snapped",
+      "passed": true,
+      "alignment": 1.0
+    },
+    {
+      "name": "linear_display_mode",
+      "passed": true
+    },
+    {
+      "name": "all_slice_extents_fit_view",
+      "passed": true
+    },
+    {
+      "name": "common_slice_scale",
+      "passed": true,
+      "mm_per_logical_pixel": [
+        0.6921077551231942,
+        0.6921077551231942,
+        0.6921077551231942
+      ]
+    },
+    {
+      "name": "mr_ct_presets_disabled",
+      "passed": true
+    },
+    {
+      "name": "manual_window_level",
+      "passed": true
+    },
+    {
+      "name": "auto_window_level",
+      "passed": true
+    },
+    {
+      "name": "candidate_cannot_apply_ct_window_to_loaded_mr",
+      "passed": true
+    },
+    {
+      "name": "crosshair_off",
+      "passed": true
+    },
+    {
+      "name": "crosshair_on",
+      "passed": true
+    },
+    {
+      "name": "slice_planes_visible",
+      "passed": true
+    },
+    {
+      "name": "crop_changes_display",
+      "passed": true
+    },
+    {
+      "name": "roi_follows_crosshair",
+      "passed": true
+    },
+    {
+      "name": "reset_keeps_crop_and_contrast",
+      "passed": true
+    },
+    {
+      "name": "roi_reset_full_extent",
+      "passed": true
+    },
+    {
+      "name": "mr_render_preset",
+      "passed": true
+    },
+    {
+      "name": "mip_uses_projection_mode",
+      "passed": true
+    },
+    {
+      "name": "standard_render_restores_composite_mode",
+      "passed": true
+    },
+    {
+      "name": "render_follows_display",
+      "passed": true
+    },
+    {
+      "name": "display_operations_preserve_voxels",
+      "passed": true
+    },
+    {
+      "name": "snapshot_hides_corner_annotations",
+      "passed": true
+    },
+    {
+      "name": "snapshot_keeps_safe_orientation_labels",
+      "passed": true
+    },
+    {
+      "name": "four_view_png",
+      "passed": true,
+      "dimensions": [
+        2250,
+        1584,
+        1
+      ]
+    },
+    {
+      "name": "three_d_has_visible_content",
+      "passed": true,
+      "horizontal_contrast": 73.43603746442099
+    },
+    {
+      "name": "snapshot_restores_controls",
+      "passed": true
+    },
+    {
+      "name": "snapshot_records_geometry",
+      "passed": true
+    },
+    {
+      "name": "snapshot_failure_reported",
+      "passed": true
+    },
+    {
+      "name": "snapshot_failure_restores_controls",
+      "passed": true
+    },
+    {
+      "name": "burned_in_yes_blocks_export",
+      "passed": true
+    },
+    {
+      "name": "paired_export_failure_restores_originals",
+      "passed": true
+    },
+    {
+      "name": "paired_export_success",
+      "passed": true
+    },
+    {
+      "name": "segmentation_editor_binding",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "manual_mask_surface",
+      "passed": true,
+      "points": 110
+    },
+    {
+      "name": "transformed_segmentation_save_guard",
+      "passed": true
+    },
+    {
+      "name": "reload_same_series_reuses_volume",
+      "passed": true
+    },
+    {
+      "name": "switch_series",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "return_to_cached_series",
+      "passed": true
+    },
+    {
+      "name": "segmentation_retained_on_switch",
+      "passed": true
+    },
+    {
+      "name": "failed_load_rolls_back",
+      "passed": true
+    },
+    {
+      "name": "failure_reported",
+      "passed": true
+    },
+    {
+      "name": "scene_clear_resets_controls",
+      "passed": true
+    }
+  ],
+  "slicer_version": "5.12.4",
+  "source_dicom_unchanged": true,
+  "finished_at": "2026-10-04T22:43:36.661920",
+  "code_sha256": {
+    "CT3D\\CT3D.py": "471ba7baf97ccde892d26e9cf5c20198f5f2e1bc56ad247880837e920a3c65ff",
+    "CT3D\\CT3DLib\\CT3DReview.py": "7eb1a1fb8f26174622c830a7af65f2f4f9d3d040ef999ef6010d7b5ad5285e71",
+    "CT3D\\CT3DLib\\CT3DExport.py": "f5c119e30563efbe256ae0fd70b53c2a7cd4e209ad2d52d95525837a120d699a",
+    "CT3D\\CT3DLib\\CT3DViewLabels.py": "c74561cc6906f8fecf03cc8e1847718f1c9c17fa61226915ef652f463be6685f"
+  }
+}
